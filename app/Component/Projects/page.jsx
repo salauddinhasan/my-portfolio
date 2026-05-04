@@ -18,24 +18,24 @@ export default function Projects() {
       description:
         "A personal portfolio built with Next.js, Tailwind CSS, and React.",
       image: "/p1.png",
-      demo: "#",
-      github: "#",
+      demo: "https://ph-d72-keep-keeper.vercel.app/",
+      github: "https://github.com/salauddinhasan/ph-d72-keep-keeper",
     },
     {
       title: "E-commerce Store",
       description:
         "Full-stack e-commerce application with payment integration and admin panel.",
       image: "/p2.png",
-      demo: "#",
-      github: "#",
+      demo: "https://skillsphere-project-phi.vercel.app/",
+      github: "https://github.com/salauddinhasan/a8-skillsphere-app-",
     },
     {
       title: "Blog Platform",
       description:
         "Dynamic blog platform with markdown support and user authentication.",
       image: "/p3.png",
-      demo: "#",
-      github: "#",
+      demo: "https://dragon-news-next-better-auth-ashy.vercel.app",
+      github: "https://github.com/salauddinhasan/dragon-news-next-better-auth-",
     },
     {
       title: "Blog Platform 2",
