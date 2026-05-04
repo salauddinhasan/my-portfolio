@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { Menu, X, Sparkles, Sun, Moon } from "lucide-react";
-import { useTheme } from "@/app/Context/ThemeContext/page";
+import { useTheme } from "@/app/Context/ThemeContext";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
