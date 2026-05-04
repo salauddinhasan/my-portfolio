@@ -5,7 +5,7 @@
 **A blazing-fast, modern personal portfolio crafted with Next.js & Tailwind CSS**
 
 
- 🔗 **[Live Demo →](https://your-portfolio-url.vercel.app)**
+ 🔗 **[Live Demo →]([https://lnkd.in/g57tyKfu])**
 
 </div>
 
@@ -14,7 +14,7 @@
 ## ✨ Sections
 
 | Section | Description |
-|---|---|
+|---|---
 | 🏠 **Hero** | Eye-catching landing with intro |
 | 👤 **About Me** | Who I am & my story |
 | 🛠️ **Skills** | Tech stack & tools I use |
@@ -98,7 +98,7 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser 🎉
+Open [https://lnkd.in/g57tyKfu] in your browser 🎉
 
 ---
 
@@ -129,10 +129,10 @@ vercel
 
 **Salauddin**
 
-- 🌐 Portfolio — [your-portfolio-url.vercel.app](https://your-portfolio-url.vercel.app)
-- 💼 LinkedIn — [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-- 🐙 GitHub — [github.com/yourusername](https://github.com/yourusername)
-- 📧 Email — your@email.com
+- 🌐 Portfolio —  [https://lnkd.in/g57tyKfu]
+- 💼 LinkedIn —  [www.linkedin.com/in/md-salauddin01]
+- 🐙 GitHub —  [https://github.com/salauddinhasan]
+- 📧 Email — [salauddinhasan244@gmail.com]
 
 ---
 
