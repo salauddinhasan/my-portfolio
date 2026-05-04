@@ -1,102 +1,149 @@
----
-
-### ⚡ Installation & Setup
-Prothome confirm korun apnar kache **Node.js v18+** ache.
-
-1.  **Repo Clone korun:**
-    ```bash
-    git clone [https://github.com/yourusername/next.js-portfolio.git](https://github.com/yourusername/next.js-portfolio.git)
-    ```
-2.  **Dependencies Install korun:**
-    ```bash
-    npm install
-    ```
-3.  **Local server start korun:**
-    ```bash
-    npm run dev
-    ```
-Ekhon browse korun: `http://localhost:3000` 🎉
-
----
-
-### 📬 Connect with Me
-
-Apnar sathe jogajog korar maddhom:
-
-- 🌐 **Live Site:** [salauddin-ai-model-hub-2.netlify.app](https://salauddin-ai-model-hub-2.netlify.app)
-- 💼 **LinkedIn:** [/in/yourprofile](https://linkedin.com/in/yourprofile)
-- 🐙 **GitHub:** [@yourusername](https://github.com/yourusername)
-
----
-
-<div align="center">
-  Crafted with ❤️ by <b>Salauddin</b>Boss, apnar **Salauddin — Portfolio** er README ta k amra aro professional ebong premium look dilam. Ete **scannability** aro barbe ebong keu apnar GitHub profile-e ashle ekbar dekhlei sob kichu bujhte parbe.
-
----
+<div align="left">
 
 # ✦ Salauddin — Portfolio
 
-> **A high-performance, premium personal portfolio crafted with Next.js 14 and Tailwind CSS.**
+**A blazing-fast, modern personal portfolio crafted with Next.js & Tailwind CSS**
 
-<div align="center">
-  <img src="./public/preview.png" alt="Portfolio Preview" width="100%" />
+
+ 🔗 **[Live Demo →](https://your-portfolio-url.vercel.app)**
+
 </div>
 
 ---
 
-### 🚀 Overview
+## ✨ Sections
 
-Ai portfolio-ti banano hoyeche modern web trends mathay rekhe. Ete use kora hoyeche **Next.js App Router** ebong **Tailwind CSS**, ja ekadhare fast ebong fully responsive.
-
-### 🛠️ Tech Stack
-
-- **Framework:** [Next.js 14](https://nextjs.org/) (App Router)
-- **Styling:** [Tailwind CSS](https://tailwindcss.com/) + PostCSS
-- **Language:** JavaScript (JSX)
-- **Hosting:** [Vercel](https://vercel.com/)
-
----
-
-### ✨ Key Sections
-
-- 🏠 **Hero:** Eye-catching intro with a professional look.
-- 👤 **About Me:** My journey and story.
-- 🛠️ **Skills:** Modern tech stack and tools.
-- 💼 **Projects:** Showcasing work with case studies.
-- 🤔 **What I Do:** Specialized services and expertise.
-- 📬 **Contact:** Fully functional contact section.
+| Section | Description |
+|---|---|
+| 🏠 **Hero** | Eye-catching landing with intro |
+| 👤 **About Me** | Who I am & my story |
+| 🛠️ **Skills** | Tech stack & tools I use |
+| 💼 **Projects** | Showcased work & case studies |
+| 🤔 **What I Do** | Services & specialties |
+| 📬 **Contact Me** | Get in touch form |
 
 ---
 
-📁 Project Structure
-next.js-portfolio-main/
+## 🛠️ Tech Stack
+
+```
+Framework   →  Next.js 14 (App Router)
+Styling     →  Tailwind CSS + PostCSS
+Language    →  JavaScript (JSX)
+Deployment  →  Vercel
+```
+
+---
+
+## 📁 Project Structure
+
+```
+my-portfolio/
 │
 ├── app/
-│ ├── about/
-│ │ └── page.jsx # About page
-│ ├── Component/
-│ │ ├── AboutMe/ # About section component
-│ │ ├── ContactMe/ # Contact form component
-│ │ ├── Projects/ # Projects showcase
-│ │ ├── Skills/ # Skills & tech stack
-│ │ └── WhatIDo/ # Services section
-│ ├── Context/ # React context (global state)
-│ ├── HeroSection/ # Landing hero component
-│ ├── Shared/
-│ │ ├── Footer/ # Footer component
-│ │ ├── Navbar/ # Navigation bar
-│ │ └── Providers/ # App-level providers
-│ ├── globals.css # Global styles
-│ ├── layout.js # Root layout
-│ └── page.js # Home page
+│   ├── about/
+│   │   └── page.jsx          # About page
+│   ├── Component/
+│   │   ├── AboutMe/          # About section component
+│   │   ├── ContactMe/        # Contact form component
+│   │   ├── Projects/         # Projects showcase
+│   │   ├── Skills/           # Skills & tech stack
+│   │   └── WhatIDo/          # Services section
+│   ├── Context/
+│   │   └── ThemeContext/
+│   │       └── index.jsx     # Theme context (dark/light mode)
+│   ├── HeroSection/          # Landing hero component
+│   ├── Shared/
+│   │   ├── Footer/           # Footer component
+│   │   ├── Navbar/           # Navigation bar
+│   │   └── Providers/        # App-level providers
+│   ├── globals.css           # Global styles
+│   ├── layout.js             # Root layout
+│   └── page.js               # Home page
 │
 ├── public/
-│ ├── p1.png # Project images
-│ ├── p2.png
-│ ├── p3.png
-│ └── salauddin.png # Profile photo
+│   ├── p1.png                # Project images
+│   ├── p2.png
+│   ├── p3.png
+│   └── salauddin.png         # Profile photo
 │
 ├── tailwind.config.js
 ├── next.config.mjs
 ├── postcss.config.mjs
 └── jsconfig.json
+```
+
+---
+
+## ⚡ Getting Started
+
+### Prerequisites
+
+- Node.js `v18+`
+- npm
+
+### Installation
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/yourusername/my-portfolio.git
+
+# 2. Navigate into the project
+cd my-portfolio
+
+# 3. Install dependencies
+npm install
+
+# 4. Run the development server
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser 🎉
+
+---
+
+## 🔧 Available Scripts
+
+```bash
+npm run dev      # Start development server (localhost:3000)
+npm run build    # Build for production
+npm run start    # Run production build locally
+npm run lint     # Run ESLint checks
+```
+
+---
+
+## 🚀 Deployment
+
+Deployed seamlessly on **Vercel** — connect your GitHub repo and it auto-deploys on every push.
+
+```bash
+# Or deploy manually via CLI
+npm i -g vercel
+vercel
+```
+
+---
+
+## 📬 Contact
+
+**Salauddin**
+
+- 🌐 Portfolio — [your-portfolio-url.vercel.app](https://your-portfolio-url.vercel.app)
+- 💼 LinkedIn — [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
+- 🐙 GitHub — [github.com/yourusername](https://github.com/yourusername)
+- 📧 Email — your@email.com
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](./LICENSE).
+
+---
+
+<div align="center">
+
+crafted with ♥ by **Salauddin** · built on Next.js & Tailwind CSS
+
+</div>
