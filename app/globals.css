@@ -1,0 +1,150 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --bg-Hero-primary: linear-gradient(to bottom right, rgba(255, 255, 255, 1), rgba(239, 246, 255, 0.3), rgba(207, 250, 254, 0.2));
+  --Hero-ImgShadow-primary: linear-gradient(to right, #183b64, #67e8f9);
+  --bg-primary: linear-gradient(to bottom right, #f9fafb, rgba(239, 246, 255, 0.3));
+  --bg-secondary: linear-gradient(to bottom right, #ffffff, rgba(239, 246, 255, 0.2));
+  --cardBg-primary: linear-gradient(to bottom right, #2563eb, #1d4ed8, #7c3aed);
+  --cardBg-secondary: rgba(255, 255, 255, 0.8);
+  --btn-primary: linear-gradient(to right, #062c83, #114ad7);
+  --btn-secondary: white;
+  --text-primary: linear-gradient(to right, #2563eb, #0891b2);
+  --text-secondary: rgb(37, 99, 235);
+  --text-base: rgb(75, 85, 99);
+  --text-default: rgb(17, 24, 39);
+}
+
+/* Dark theme variables */
+:root.dark {
+  --bg-Hero-primary: linear-gradient(to bottom right, #0f172a, #1e293b, #334155);
+  --Hero-ImgShadow-primary: linear-gradient(to right, #1e40af, #0ea5e9);
+  --bg-primary: linear-gradient(to bottom right, #0f172a, #1e293b);
+  --bg-secondary: linear-gradient(to bottom right, #0f172a, #1e293b);
+  --btn-primary: linear-gradient(to right, #1e40af, #3730a3);
+  --btn-secondary: #0b1b33;
+  --cardBg-primary: linear-gradient(to bottom right, #102770, #1c1852, #321560);
+  --cardBg-secondary: rgba(255, 255, 255, 0.5);
+  --text-primary: linear-gradient(to right, #60a5fa, #38bdf8);
+  --text-secondary: #60a5fa;
+  --text-base: #9ca3af;
+  --text-default: #f9fafb;
+}
+
+
+.btn-primary {
+  background: var(--btn-primary);
+}
+
+.btn-secondary {
+  background: var(--btn-secondary);
+}
+
+.text-primary {
+  background: var(--text-primary);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-secondary {
+  color: var(--text-secondary);
+}
+
+.text-default {
+  color: var(--text-default);
+}
+
+.bg-Hero-primary {
+  background: var(--bg-Hero-primary);
+}
+
+.hero-ImgShadow-primary {
+  background: var(--Hero-ImgShadow-primary);
+}
+
+.bg-primary {
+  background: var(--bg-primary);
+}
+
+.bg-secondary {
+  background: var(--bg-secondary);
+}
+
+.cardBg-primary {
+  background: var(--cardBg-primary);
+}
+
+.cardBg-secondary {
+  background: var(--cardBg-secondary);
+}
+
+.text-base {
+  color: var(--text-base);
+}
+
+.text-default {
+  color: var(--text-default);
+}
+
+
+
+/* skills section scroll animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scroll-reverse {
+  0% {
+    transform: translateX(-50%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-scroll {
+  display: flex;
+  animation: scroll 40s linear infinite;
+}
+
+.animate-scroll-reverse {
+  display: flex;
+  animation: scroll-reverse 40s linear infinite;
+}
+
+/* Pause animation on hover */
+.group:hover .animate-scroll,
+.group:hover .animate-scroll-reverse {
+  animation-play-state: paused;
+}
+
+/* message option  */
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+
+  70% {
+    transform: scale(0.9);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
